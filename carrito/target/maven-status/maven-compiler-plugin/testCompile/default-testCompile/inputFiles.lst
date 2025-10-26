@@ -1,0 +1,7 @@
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/CarritoApplicationTests.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/controller/CarritoControllerTest.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/controller/PagoControllerTest.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/entity/UsuarioTest.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/pattern/factory/permiso/PermisoFactoryTest.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/service/CarritoServiceTest.java
+/home/sofia/Escritorio/CarritoCompras/carrito/src/test/java/com/tecumsofia/carrito/service/PagoServiceTest.java

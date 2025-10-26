@@ -1,0 +1,7 @@
+com/tecumsofia/carrito/CarritoApplicationTests.class
+com/tecumsofia/carrito/controller/CarritoControllerTest.class
+com/tecumsofia/carrito/entity/UsuarioTest.class
+com/tecumsofia/carrito/controller/PagoControllerTest.class
+com/tecumsofia/carrito/service/PagoServiceTest.class
+com/tecumsofia/carrito/service/CarritoServiceTest.class
+com/tecumsofia/carrito/pattern/factory/permiso/PermisoFactoryTest.class
