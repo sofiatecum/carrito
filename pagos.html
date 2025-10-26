@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pagos - Tienda en línea</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Procesar Pago</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="usuarios.html">Usuarios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="pago">
+      <form id="formPago">
+        <label for="codUsuario">Código de Usuario:</label>
+        <input type="text" id="codUsuario" required />
+
+        <label for="metodo">Método de Pago:</label>
+        <select id="metodo" required>
+          <option value="">Selecciona...</option>
+          <option value="efectivo">Efectivo</option>
+          <option value="paypal">PayPal</option>
+          <option value="tarjeta">Tarjeta</option>
+        </select>
+
+        <button type="submit">Confirmar Pago</button>
+      </form>
+
+      <div id="resultadoPago"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Análisis II | 8vo ciclo UMG.</p>
+  </footer>
+
+  <script src="pagos.js"></script>
+</body>
+</html>

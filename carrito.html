@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito de Compras - TIenda en línea</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tu Carrito</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="pagos.html">Pagos</a></li>
+        <li><a href="usuarios.html">Usuarios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="carrito" id="carrito">
+    </section>
+
+    <div class="total" id="total">
+    </div>
+
+    <div class="acciones">
+      <button onclick="vaciarCarrito()">Vaciar carrito</button>
+      <a href="pagos.html"><button>Proceder al pago</button></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; Análisis II | 8vo ciclo UMG.</p>
+  </footer>
+
+  <script src="carrito.js"></script>
+</body>
+</html>

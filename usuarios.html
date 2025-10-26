@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usuarios - TIenda en línea</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Gestión de Usuarios</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="pagos.html">Pagos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="usuario">
+      <form id="formUsuario">
+        <label for="codUsuario">Código de Usuario:</label>
+        <input type="text" id="codUsuario" required />
+
+        <label for="permiso">Tipo de Permiso:</label>
+        <select id="permiso" required>
+          <option value="">Selecciona...</option>
+          <option value="lectura">Lectura</option>
+          <option value="escritura">Escritura</option>
+          <option value="lectura_escritura">Lectura y Escritura</option>
+        </select>
+
+        <button type="submit">Asignar Permiso</button>
+      </form>
+
+      <div id="resultadoUsuario"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Análisis II | 8vo ciclo UMG.</p>
+  </footer>
+
+  <script src="usuarios.js"></script>
+</body>
+</html>
